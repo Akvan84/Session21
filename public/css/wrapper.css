@@ -1,0 +1,47 @@
+div.main {
+  width: 100%;
+  background-color: #2b2b2b;
+}
+
+div.main > div.parallax > div.text {
+  width: 50%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.829);
+  position: absolute;
+  top: 200px;
+  left: calc(50% / 2);
+  padding: 20px;
+}
+
+div.main > div.products {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 10px;
+}
+
+div.main > div.products > div.product {
+  flex-basis: 250px;
+  background-color: darkred;
+  padding: 10px;
+  display: flex;
+  flex-flow: column wrap ;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+div.main > div.products > div.product >img{
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+}
+
+div.main > div.products > div.product > h2 {
+  font-size: 20px;
+}
+div.main > div.products > div.product > p {
+  text-align: justify;
+}
